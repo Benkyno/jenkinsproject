@@ -1,0 +1,20 @@
+Started by user [8mha:////4HLY7Eboxlln4bP/tJeUwLfoaq5TKsz/0f6byIveSpvVAAAAmh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgY+/dLi1CL9rNS87My84mIAQeAXeMMAAAA=[0mjenkins
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/backup-to-aws
+[SSH] script:
+MYSQL_HOST="db_host"
+AWS_SECRET_KEY=**********
+MYSQL_PASSWORD=**********
+AWS_BUCKET_NAME="jenkins-mysql-backp"
+DATABASE_NAME="testdb"
+
+/tmp/scrip.sh $MYSQL_HOST $MYSQL_PASSWORD $DATABASE_NAME $AWS_SECRET_KEY $AWS_BUCKET_NAME
+
+[SSH] executing...
+bash: line 6: /tmp/scrip.sh: Is a directory
+
+[SSH] completed
+[SSH] exit-status: 126
+
+Build step 'Execute shell script on remote host using ssh' marked build as failure
+Finished: FAILURE

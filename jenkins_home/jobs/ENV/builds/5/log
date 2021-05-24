@@ -1,0 +1,19 @@
+Started by user [8mha:////4HLY7Eboxlln4bP/tJeUwLfoaq5TKsz/0f6byIveSpvVAAAAmh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgY+/dLi1CL9rNS87My84mIAQeAXeMMAAAA=[0mjenkins
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/ENV
+[ENV] $ /bin/sh -xe /tmp/jenkins5401713425003924205.sh
++ echo BUILD NUMBER FOR THIS IS 5
+BUILD NUMBER FOR THIS IS 5
++ echo BUILD ID IS 5
+BUILD ID IS 5
++ echo BUILD URL IS http://10.0.1.21:8080/job/ENV/5/
+BUILD URL IS http://10.0.1.21:8080/job/ENV/5/
++ echo JOB NAME IS ENV
+JOB NAME IS ENV
++ echo ***********
+***********
++ echo Jenkins-course
+Jenkins-course
++ echo Czech
+Czech
+Finished: SUCCESS

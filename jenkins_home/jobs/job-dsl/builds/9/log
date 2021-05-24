@@ -1,0 +1,7 @@
+Started by user [8mha:////4IjRcdTcDMu/VwjX/AvNQsUa6ReS/ziuaNFP7l46EAieAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZe/dLi1CL9pNS87Mq8fACEE2DtwgAAAA==[0mOndrej Benko
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/job-dsl
+Processing provided DSL script
+ERROR: (script, line 35) No signature of method: javaposse.jobdsl.dsl.helpers.BuildParametersContext.21() is applicable for argument types: (java.lang.String) values: [22]
+Possible solutions: is(java.lang.Object), any(), any(groovy.lang.Closure), use([Ljava.lang.Object;), wait(), dump()
+Finished: FAILURE

@@ -1,0 +1,20 @@
+Started by user [8mha:////4IjRcdTcDMu/VwjX/AvNQsUa6ReS/ziuaNFP7l46EAieAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZe/dLi1CL9pNS87Mq8fACEE2DtwgAAAA==[0mOndrej Benko
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/backup-to-aws
+[SSH] script:
+MYSQL_HOST="db_host"
+AWS_SECRET_KEY=**********
+MYSQL_PASSWORD=**********
+AWS_BUCKET_NAME="mysql-jenkinns-2"
+DATABASE_NAME="testdb"
+
+/tmp/scrip.sh $MYSQL_HOST $MYSQL_PASSWORD $DATABASE_NAME $AWS_SECRET_KEY $AWS_BUCKET_NAME
+
+[SSH] executing...
+Uploading your db-21-56-16.sql backup
+Completed 1.8 KiB/1.8 KiB (1.6 KiB/s) with 1 file(s) remainingupload: ../../tmp/db-21-56-16.sql to s3://mysql-jenkinns-2/db-21-56-16.sql
+
+[SSH] completed
+[SSH] exit-status: 0
+
+Finished: SUCCESS
